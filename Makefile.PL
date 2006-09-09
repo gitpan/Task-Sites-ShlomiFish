@@ -16,6 +16,7 @@ WriteMakefile(
         'HTML::TokeParser::Simple' => 0,
         'XML::LibXSLT' => 0,
         'WWW::Google::SiteMap' => 0,
+        'XML::Grammar::ProductsSyndication' => '0.02',
         'Task::Latemp' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

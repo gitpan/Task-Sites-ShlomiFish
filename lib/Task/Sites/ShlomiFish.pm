@@ -9,7 +9,7 @@ Task::Sites::ShlomiFish - Specifications for modules needed by the homesite
 of Shlomi Fish.
 =cut
 
-our $VERSION = '0.0100';
+our $VERSION = '0.0200';
 
 =head1 DESCRIPTION
 
@@ -71,4 +71,5 @@ This program is released under the following license: bsd
 
 =cut
 
-1; # End of Task::Latemp
+1;
+
