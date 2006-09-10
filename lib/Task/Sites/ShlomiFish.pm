@@ -9,7 +9,7 @@ Task::Sites::ShlomiFish - Specifications for modules needed by the homesite
 of Shlomi Fish.
 =cut
 
-our $VERSION = '0.0200';
+our $VERSION = '0.0201';
 
 =head1 DESCRIPTION
 

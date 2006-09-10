@@ -3,7 +3,6 @@
 use Test::More tests => 1;
 
 BEGIN {
-	use_ok( 'Task::Latemp' );
+	use_ok( 'Task::Sites::ShlomiFish' );
 }
 
-diag( "Testing Task::Latemp $Task::Latemp::VERSION, Perl $], $^X" );

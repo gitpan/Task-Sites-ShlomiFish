@@ -18,6 +18,7 @@ WriteMakefile(
         'WWW::Google::SiteMap' => 0,
         'XML::Grammar::ProductsSyndication' => '0.02',
         'Task::Latemp' => 0,
+        'XML::LibXML::XPathContext' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Task-Latemp-*' },

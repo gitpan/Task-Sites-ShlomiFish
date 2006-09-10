@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Task-Sites-ShlomiFish
-version:      0.0200
+version:      0.0201
 version_from: lib/Task/Sites/ShlomiFish.pm
 installdirs:  site
 requires:
@@ -12,6 +12,7 @@ requires:
     Template::Preprocessor::TTML:  0
     WWW::Google::SiteMap:          0
     XML::Grammar::ProductsSyndication: 0.02
+    XML::LibXML::XPathContext:     0
     XML::LibXSLT:                  0
 
 distribution_type: module
