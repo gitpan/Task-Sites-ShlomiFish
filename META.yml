@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Task-Sites-ShlomiFish
-version:            0.0203
+version:            0.0204
 abstract:           Specifications for modules needed for building www.shlomifish.org , whose sources are publically available, and serve as examples for several technologies.
 author:
     - Shlomi Fish <shlomif@iglu.org.il>
@@ -19,6 +19,7 @@ requires:
     String::ShellQuote:   0
     Task::Latemp:         0
     Template::Preprocessor::TTML:  0
+    Term::ReadPassword:   0
     Text::VimColor:       0
     XML::Grammar::Fiction:  0
     XML::Grammar::Fortune:  0.0107
