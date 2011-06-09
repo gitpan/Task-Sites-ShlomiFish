@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Task-Sites-ShlomiFish
-version:            0.0205
+version:            0.0206
 abstract:           Specifications for modules needed for building www.shlomifish.org , whose sources are publically available, and which serves as examples for several technologies.
 author:
     - Shlomi Fish <shlomif@iglu.org.il>
@@ -32,6 +32,8 @@ requires:
     File::Spec:           0
     File::Spec::Functions:  0
     HTML::TokeParser::Simple:  0
+    HTML::TreeBuilder::LibXML:  0
+    Imager:               0
     IO::All:              0
     Spork::Shlomify:      0.0200
     strict:               0
@@ -44,6 +46,7 @@ requires:
     utf8:                 0
     vars:                 0
     warnings:             0
+    XML::Amazon:          0
     XML::Feed:            0
     XML::Grammar::Fiction:  0.7.0
     XML::Grammar::Fortune:  0.0107
