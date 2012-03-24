@@ -1,5 +1,9 @@
 Revision history for Task-Sites-ShlomiFish:
 
+0.0207      Sat Mar 24 11:23:03 IST 2012
+        - Add DBD::SQLite (it is needed).
+        - Add JSON.
+
 0.0206      Thu Jun  9 12:28:12 IDT 2011
         - Add HTML::TreeBuilder::LibXML .
         - Add XML::Amazon .
