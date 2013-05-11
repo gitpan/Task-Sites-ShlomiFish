@@ -1,5 +1,10 @@
 Revision history for Task-Sites-ShlomiFish:
 
+0.0208      Sat 11 May 18:17:31 IDT 2013
+        - Add more dependencies.
+        - Convert to Build.PL / Module-Build to handle three version
+        digits properly.
+
 0.0207      Sat Mar 24 11:23:03 IST 2012
         - Add DBD::SQLite (it is needed).
         - Add JSON.
@@ -24,7 +29,7 @@ Revision history for Task-Sites-ShlomiFish:
         - Add the tag-release.pl file to tag a release using Subversion.
 
 0.0202     Wed Mar  4 15:12:10 IST 2009
-        - Added more dependencies: App::XML::DocBook::Builder , 
+        - Added more dependencies: App::XML::DocBook::Builder ,
         String::ShellQuote, and the XML::Grammar's.
             - These are now required by the module.
         - Revised the POD in lib/Task/Sites/ShlomiFish.pm to make the
