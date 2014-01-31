@@ -4,9 +4,9 @@
       "Shlomi Fish <shlomif@iglu.org.il>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
    "license" : [
-      "unknown"
+      "mit"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -76,6 +76,7 @@
             "XML::Parser" : "0",
             "XML::Writer" : "0",
             "base" : "0",
+            "perl" : "5.008",
             "strict" : "0",
             "utf8" : "0",
             "vars" : "0",
@@ -86,9 +87,14 @@
    "provides" : {
       "Task::Sites::ShlomiFish" : {
          "file" : "lib/Task/Sites/ShlomiFish.pm",
-         "version" : "0.0208"
+         "version" : "0.0209"
       }
    },
    "release_status" : "stable",
-   "version" : "0.0208"
+   "resources" : {
+      "license" : [
+         "http://www.opensource.org/licenses/mit-license.php"
+      ]
+   },
+   "version" : "0.0209"
 }
